@@ -13,7 +13,7 @@ Below is an example of the animations produced:
 
 **How to use the code**
 
-The main code is in the parent folder (NormalModesAnimator.py). For running the code download it into a folder and run it (for default parameters) by opening a terminal and typing `python3 NormalModesAnimator.py` and it will produce the animation.
+The main code is in the parent folder (`NormalModesAnimator.py`). For running the code download it into a folder and run it (for default parameters) by opening a terminal and typing `python3 NormalModesAnimator.py` and it will produce the animation.
 
 The default parameters are:
 
