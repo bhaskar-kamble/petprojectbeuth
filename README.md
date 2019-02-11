@@ -7,7 +7,7 @@ As part of the Advanced Software Engineering course at the Beuth Hochschule fuer
 **All details relating to the specific tasks of the project and my solutions can be found in the repo [Wiki](https://github.com/bhaskar-kamble/petprojectbeuth/wiki).**
 
 
-Below is an example of the animations produced:
+Below is an example of the animations produced. Both show longitudinal oscillations (as opposed to transverse oscillations), but whereas the one on the left shows fixed boundary conditions (the masses at the ends being fixed to rigid walls), the second one shows open boundary conditions (the masses at the ends being free, or "open").
 
 <img src="./FixedBCyoutube.gif" width="300">  <img src="./OpenBC.gif" width="300">
 
