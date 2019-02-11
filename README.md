@@ -17,8 +17,8 @@ The main code is in the parent folder (`NormalModesAnimator.py`). For running th
 
 The default parameters are:
 
-1. `numberMasses = 5`. This is the number of masses in the spring-mass system and is an integer.
-2. `relAmp = [1.0 , 0.8 , 0.6 , 0.4 , 0.4]`. These are the relative amplitudes of each of the masses and is a list. The length must be equal to `numberMasses`.
+1. `numberMasses = 6`. This is the number of masses in the spring-mass system and is an integer.
+2. `relAmp = [1.0 , 0.8 , 0.6 , 0.4 , 0.4 , 0.3]`. These are the relative amplitudes of each of the masses and is a list. The length must be equal to `numberMasses`. Otherwise a runtime error is thrown.
 3. `howLong = 4.0*np.pi*5.0` This is the duration for which you want the animation to run and is a float.
 4. `howMany = 4000` This is the number of snapshots in the interval `howLong` and is an integer.
 

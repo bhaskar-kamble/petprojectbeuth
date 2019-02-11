@@ -14,6 +14,8 @@ class Oscillator:
         self.relAmp = np.array(relAmp)
         self.howLong = howLong
         self.howMany = howMany
+        if numberMasses!=len(relAmp):
+            raise RuntimeError("number of masses must equal length of relative amplitudes array")
 
     def setTime(self):
         time = np.linspace(0 , self.howLong , self.howMany)
