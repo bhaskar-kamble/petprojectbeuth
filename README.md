@@ -9,9 +9,7 @@ As part of the Advanced Software Engineering course at the Beuth Hochschule fuer
 
 Below is an example of the animations produced:
 
-<img src="./FixedBCyoutube.gif" width="300">
-
-<img src="./OpenBC.gif" width="300">
+<img src="./FixedBCyoutube.gif" width="300">  <img src="./OpenBC.gif" width="300">
 
 **How to use the code**
 
