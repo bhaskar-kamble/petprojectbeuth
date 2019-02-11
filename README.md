@@ -11,6 +11,8 @@ Below is an example of the animations produced:
 
 <img src="./FixedBCyoutube.gif" width="300">
 
+<img src="./OpenBC.gif" width="300">
+
 **How to use the code**
 
 The main code is in the parent folder (`NormalModesAnimator.py`). For running the code download it into a folder and run it (for default parameters) by opening a terminal and typing `python3 NormalModesAnimator.py` and it will produce the animation.
