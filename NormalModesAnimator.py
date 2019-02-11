@@ -86,15 +86,11 @@ class longFixed(Oscillator):
                  relAmp = [1.0 , 0.8 , 0.6 , 0.4 , 0.4],
                  howLong = 4.0*np.pi*5.0,
                  howMany = 4000):  
-                 #in the above YOU specify the arguments to create an instance of the "longFixed" class
         Oscillator.__init__(self,
                             numberMasses,
                             relAmp,
                             howLong,
                             howMany) 
-                            # Now the parent class "Oscillator" is instanced with the parameters
-                            # you specified in the previous line for the "longFixed" class - Hence
-                            # both "Oscillator" and "longFixed" instances have the same parameters
 
 
     def getLengthTableLF(self):
