@@ -1,0 +1,36 @@
+running clean
+'build/lib' does not exist -- can't clean it
+'build/bdist.linux-x86_64' does not exist -- can't clean it
+'build/scripts-3.6' does not exist -- can't clean it
+running bdist_wheel
+running build
+running build_py
+creating build
+creating build/lib
+copying NormalModesAnimator.py -> build/lib
+installing to build/bdist.linux-x86_64/wheel
+running install
+running install_lib
+creating build/bdist.linux-x86_64
+creating build/bdist.linux-x86_64/wheel
+copying build/lib/NormalModesAnimator.py -> build/bdist.linux-x86_64/wheel
+running install_egg_info
+running egg_info
+writing petproject.egg-info/PKG-INFO
+writing dependency_links to petproject.egg-info/dependency_links.txt
+writing namespace_packages to petproject.egg-info/namespace_packages.txt
+writing top-level names to petproject.egg-info/top_level.txt
+reading manifest file 'petproject.egg-info/SOURCES.txt'
+writing manifest file 'petproject.egg-info/SOURCES.txt'
+Copying petproject.egg-info to build/bdist.linux-x86_64/wheel/petproject-1.0.dev0-py3.6.egg-info
+running install_scripts
+creating build/bdist.linux-x86_64/wheel/petproject-1.0.dev0.dist-info/WHEEL
+creating '/home/kbhaskar/beuth/AdvancedSoftwareEngineering/PetProject/petproject/target/dist/petproject-1.0.dev0/dist/petproject-1.0.dev0-py3-none-any.whl' and adding '.' to it
+adding 'NormalModesAnimator.py'
+adding 'petproject-1.0.dev0.dist-info/namespace_packages.txt'
+adding 'petproject-1.0.dev0.dist-info/top_level.txt'
+adding 'petproject-1.0.dev0.dist-info/zip-safe'
+adding 'petproject-1.0.dev0.dist-info/WHEEL'
+adding 'petproject-1.0.dev0.dist-info/METADATA'
+adding 'petproject-1.0.dev0.dist-info/RECORD'
+removing build/bdist.linux-x86_64/wheel

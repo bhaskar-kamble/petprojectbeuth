@@ -1,0 +1,19 @@
+language: python
+python:
+  - "3.6"
+  - "3.6.7"
+
+before_install:
+  - pip install -r requirements.txt
+
+addons:
+  sonarcloud:
+    organization: "bhaskar-kamble-github"
+
+script:
+  - python NormalModesAnimator.py
+  - sonar-scanner
+
+
+
+
