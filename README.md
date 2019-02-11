@@ -2,9 +2,16 @@
 
 
 
-As part of the Advanced Software Engineering course at the Beuth Hochschule fuer Technik, Berlin, students are required to write a project of their choice and apply the concepts of advanced software engineering taught in this course. As part of my submission, I wrote a Python program to generate animations of a coupled system of oscillators (identical masses coupled with identical springs) with either fixed or open boundary conditions. Below is an example of the animations produced:
+As part of the Advanced Software Engineering course at the Beuth Hochschule fuer Technik, Berlin, students are required to write a project of their choice and apply the concepts of advanced software engineering taught in this course. As part of my submission, I wrote a Python program to generate animations of a coupled system of oscillators (identical masses coupled with identical springs) with either fixed or open boundary conditions.
 
-<img src="./FixedBCyoutube.gif" width="500">
+**All details relating to the specific tasks of the project and my solutions can be found in the repo [Wiki](https://github.com/bhaskar-kamble/petprojectbeuth/wiki).**
+
+
+Below is an example of the animations produced:
+
+<img src="./FixedBCyoutube.gif" width="300">
+
+**How to use the code**
 
 The main code is in the parent folder (NormalModesAnimator.py). For running the code simply download it into a folder and run it (for default parameters) by opening a terminal and typing "python3 NormalModesAnimator.py" and it will produce the animation.
 
@@ -22,6 +29,5 @@ For non-default parameters you can do the following:
 3. if you want to animate a system with open boundary conditions, create an object of class `longOpen` with `osc2 = NormalModesAnimator.longOpen(numberMasses,relAmp,howLong,howMany)` with parameters of your choice and create the animation with `osc1.plotAnimationLO()`.
 
 
-All details relating to the specific tasks of the project and my solutions can be found in the repo [Wiki](https://github.com/bhaskar-kamble/petprojectbeuth/wiki).
 
 
